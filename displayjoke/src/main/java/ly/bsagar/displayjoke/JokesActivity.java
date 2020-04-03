@@ -20,6 +20,6 @@ public class JokesActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String joke = intent.getStringExtra("joke");
-
+        binding.textView.setText(joke);
     }
 }
