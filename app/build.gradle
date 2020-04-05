@@ -25,7 +25,6 @@ android {
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         applicationIdSuffix = 'freerelease'
-
     }
 
     buildTypes {
@@ -33,7 +32,6 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-
     }
     flavorDimensions "version"
     productFlavors{
@@ -48,7 +46,6 @@ android {
             versionNameSuffix "-paid"
         }
     }
-
 }
 
 dependencies {
